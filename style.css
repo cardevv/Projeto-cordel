@@ -1,0 +1,136 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --fonte1:  'Passion One', cursive;
+    --fonte2:  'Sriracha', cursive;
+    --fonte3: verdana, geneva , tahoma, sans-serif;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+html , body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte3);
+
+}
+
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: 1px 4px 20px 1px black;
+}
+header >p {
+    padding-bottom: 30px;
+}
+
+h1{
+    font-family: var(--fonte1);
+    font-size: 7vw;
+    font-variant: small-caps;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    padding-left: 30px;
+    font-family:var(--fonte2);
+    font-size: 1.5em;
+    box-shadow: 1px 4px 20px 1px black;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+
+
+
+
+section.normal {
+background-color: white;
+color: black;
+
+}
+
+
+
+
+section#paralax1{
+    
+    color: white;
+    background-image: url(cordelstuff/imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+
+}
+
+
+
+section#paralax2{
+    
+    color: white;
+    background-image: url(cordelstuff/imagens/background002.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+
+}
+
+
+
+
+
+
+section.img > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.192);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    
+}
